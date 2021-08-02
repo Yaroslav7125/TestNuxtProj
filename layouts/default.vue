@@ -3,7 +3,7 @@
     <NavBar />
     <main>
       <div class="container">
-        <nuxt/>
+        <nuxt />
       </div>
     </main>
 
