@@ -7,11 +7,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <nuxt-link class="nav-link" to="/">Home</nuxt-link>
+            <li class="nav-item ">
+              <nuxt-link exact active-class="active active2" class="nav-link" to="/">Home</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link class="nav-link" to="about">About</nuxt-link>
+              <nuxt-link active-class="active active2" class="nav-link" to="about">About</nuxt-link>
             </li>
           </ul>
         </div>
@@ -19,3 +19,8 @@
     </div>
 
 </template>
+<style>
+.active2{
+  border-bottom: 3px solid green;
+}
+</style>

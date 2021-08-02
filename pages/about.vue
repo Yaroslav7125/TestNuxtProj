@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>About</h1>
+    <h1>About Page</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, quasi!</p>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
