@@ -3,7 +3,7 @@ export default {
   head: {
     title: 'not Project',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ru'
     },
     meta: [
       { charset: 'utf-8' },

@@ -11,7 +11,10 @@
               <nuxt-link exact no-prefetch active-class="active active2" class="nav-link" to="/">Home</nuxt-link>
             </li>
             <li class="nav-item">
-              <nuxt-link active-class="active active2" class="nav-link" to="about">About</nuxt-link>
+              <nuxt-link no-prefetch active-class="active active2" class="nav-link" to="about">About</nuxt-link>
+            </li>
+            <li class="nav-item">
+              <nuxt-link no-prefetch active-class="active active2" class="nav-link" to="timer">Time</nuxt-link>
             </li>
           </ul>
         </div>
@@ -24,3 +27,8 @@
   border-bottom: 3px solid green;
 }
 </style>
+<script>
+
+</script>
+
+
