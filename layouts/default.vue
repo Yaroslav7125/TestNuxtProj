@@ -24,11 +24,10 @@ export default {
     timer,
   },
   mounted:function(){
-    this.$nextTick(function () {
     setInterval(()=>{
-      this.time++;
+      this.$store.commit('tick');
     }, 1000)
-  })
+    
   }
 }
 </script>
